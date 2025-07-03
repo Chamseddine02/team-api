@@ -1,0 +1,11 @@
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/TeamApiApplication.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/controller/EquipeController.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/controller/JoueurController.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/dto/EquipeDto.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/dto/JoueurDto.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/entities/EquipeEntity.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/entities/JoueurEntity.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/repository/EquipeRepository.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/repository/JoueurRepository.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/service/EquipeService.java
+/Users/fredjnour/Downloads/team-api/src/main/java/com/nice/gestion/service/JoueurService.java

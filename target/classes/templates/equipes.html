@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Liste des équipes</title>
+</head>
+<body>
+<h1>Liste des équipes</h1>
+
+<!-- Bouton pour ajouter une équipe -->
+<a href="/add">
+    <button type="button">Ajouter une équipe</button>
+</a>
+
+<div th:each="equipe : ${equipes}">
+    <h2 th:text="${equipe.name} + ' (' + ${equipe.acronym} + ')'"></h2>
+    <p>Budget: <span th:text="${equipe.budget}"></span> €</p>
+    <h3>Joueurs :</h3>
+    <ul>
+        <li th:each="joueur : ${equipe.joueurs}">
+            <span th:text="${joueur.name}"></span> - <span th:text="${joueur.position}"></span>
+        </li>
+    </ul>
+    <hr/>
+</div>
+</body>
+</html>

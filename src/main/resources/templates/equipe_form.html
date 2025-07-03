@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Ajouter une équipe</title>
+</head>
+<body>
+<h1>Ajouter une équipe</h1>
+
+<form th:action="@{/add}" th:object="${equipe}" method="post">
+  <label>Nom :</label>
+  <input type="text" th:field="*{name}" required /><br/>
+
+  <label>Budget :</label>
+  <input type="number" step="0.01" th:field="*{budget}" required /><br/>
+
+  <label>Nom joueur :</label>
+  <input type="text" th:field="*{joueurs[0].name}" /><br/>
+
+  <label>Position joueur :</label>
+  <input type="text" th:field="*{joueurs[0].position}" /><br/>
+
+  <button type="submit">Ajouter</button>
+</form>
+
+</body>
+</html>
